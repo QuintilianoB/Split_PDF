@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf teste/*
+python2.7 script_v2.py --arquivo teste.pdf --max_pag 10 --max_size 400 --pasta teste --prefixo teste
+
